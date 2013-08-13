@@ -7,7 +7,7 @@ module.exports = {
     db: 'mongodb://tonylife:tonylife@widmore.mongohq.com:10010/Tony-Mean-Play-DB',
     root: rootPath,
     app: {
-      name: 'MEAN - A Modern Stack - Development'
+      name: 'Tony-MEAN-Play'
     },
     facebook: {
       clientID: "APP_ID",
@@ -34,7 +34,7 @@ module.exports = {
     db: 'mongodb://tonylife:tonylife@widmore.mongohq.com:10010/Tony-Mean-Play-DB',
     root: rootPath,
     app: {
-      name: 'MEAN - A Modern Stack - Test'
+      name: 'Tony-MEAN-Play'
     },
     facebook: {
       clientID: "APP_ID",
@@ -61,7 +61,7 @@ module.exports = {
     db: 'mongodb://tonylife:tonylife@widmore.mongohq.com:10010/Tony-Mean-Play-DB',
     root: rootPath,
     app: {
-      name: 'MEAN - A Modern Stack - Production'
+      name: 'Tony-MEAN-Play'
     },
     facebook: {
       clientID: "APP_ID",
