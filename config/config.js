@@ -4,7 +4,7 @@ var path = require('path')
 
 module.exports = {
   development: {
-    db: 'mongodb://localhost/mean-dev',
+    db: 'mongodb://tonylife:tonylife@widmore.mongohq.com:10010/Tony-Mean-Play-DB',
     root: rootPath,
     app: {
       name: 'MEAN - A Modern Stack - Development'
@@ -31,7 +31,7 @@ module.exports = {
     },
   },
   test: {
-    db: 'mongodb://localhost/mean-test',
+    db: 'mongodb://tonylife:tonylife@widmore.mongohq.com:10010/Tony-Mean-Play-DB',
     root: rootPath,
     app: {
       name: 'MEAN - A Modern Stack - Test'
@@ -58,7 +58,7 @@ module.exports = {
     }
   },
   production: {
-    db: 'mongodb://localhost/mean',
+    db: 'mongodb://tonylife:tonylife@widmore.mongohq.com:10010/Tony-Mean-Play-DB',
     root: rootPath,
     app: {
       name: 'MEAN - A Modern Stack - Production'
